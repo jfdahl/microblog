@@ -1,0 +1,12 @@
+.button {
+    width: 10em;
+    height: 1.5em;
+    border-radius: 5px;
+    border: 1px solid navy;
+    padding: 5px;
+    cursor: pointer;
+    background-color: lightgray;
+}
+.header_title {
+    
+}

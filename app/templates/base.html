@@ -1,0 +1,20 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - microblog</title>
+        {% else %}
+        <title>Welcome to microblog</title>
+        {% endif %}
+        <link rel="stylesheet" href="/static/base.css">
+    </head>
+    <body>
+        <div class="header_menu">
+            <span class="header_title">Microblog</span>
+            <span class="button" onclick="goto('/index');">Home</span>
+            <span class="button" onclick="goto('/about');">About</span>
+        </div>
+        <hr>
+        {% block content %}{% endblock %}
+        <script src="/static/base.js"></script>
+    </body>
+</html>
