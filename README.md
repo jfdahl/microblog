@@ -3,7 +3,8 @@ This project folder contains the sample code I used to follow along with Miguel 
 
 Table of Contents:
 
-    Part I: Hello, World! (this article)
+    [Part I: Hello, World!](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+
     Part II: Templates
     Part III: Web Forms
     Part IV: Database
